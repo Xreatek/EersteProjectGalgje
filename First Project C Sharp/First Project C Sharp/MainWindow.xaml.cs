@@ -17,7 +17,12 @@ namespace First_Project_C_Sharp
         {
             InitializeComponent();
             WordListLength = WordList.Length;
-            ChosenWord = WordList[Random(0, WordListLength)];
+            Random rnd = new Random();
+            int RNum = rnd.Next(0, WordListLength);
+            ChosenWord = WordList[RNum];
+            string RNumStr = RNum.ToString();
+            Console.WriteLine("The chosen word is " + ChosenWord + " Num Chosen was " + RNumStr);
+
         }
 
         private void TryLetterClick(object sender, RoutedEventArgs e)
@@ -30,7 +35,6 @@ namespace First_Project_C_Sharp
             int WordChars = ChosenWord.Length;
 
             string LetterTry = sender.ToString().Replace("System.Windows.Controls.Button: ", string.Empty);
-            Console.WriteLine("The word is " + ChosenWord);
             Console.WriteLine("Trying - " + LetterTry);
 
 
