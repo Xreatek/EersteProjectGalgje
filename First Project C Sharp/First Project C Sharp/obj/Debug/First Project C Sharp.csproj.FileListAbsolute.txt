@@ -1,0 +1,15 @@
+C:\Users\xipie\Documents\AA_Lessen\c#\pr1\First Project C Sharp\First Project C Sharp\obj\Debug\First Project C Sharp.csproj.AssemblyReference.cache
+C:\Users\xipie\Documents\AA_Lessen\c#\pr1\First Project C Sharp\First Project C Sharp\obj\Debug\MainWindow.g.cs
+C:\Users\xipie\Documents\AA_Lessen\c#\pr1\First Project C Sharp\First Project C Sharp\obj\Debug\App.g.cs
+C:\Users\xipie\Documents\AA_Lessen\c#\pr1\First Project C Sharp\First Project C Sharp\obj\Debug\First Project C Sharp_MarkupCompile.cache
+C:\Users\xipie\Documents\AA_Lessen\c#\pr1\First Project C Sharp\First Project C Sharp\obj\Debug\First Project C Sharp_MarkupCompile.lref
+C:\Users\xipie\Documents\AA_Lessen\c#\pr1\First Project C Sharp\First Project C Sharp\bin\Debug\First Project C Sharp.exe.config
+C:\Users\xipie\Documents\AA_Lessen\c#\pr1\First Project C Sharp\First Project C Sharp\bin\Debug\First Project C Sharp.exe
+C:\Users\xipie\Documents\AA_Lessen\c#\pr1\First Project C Sharp\First Project C Sharp\bin\Debug\First Project C Sharp.pdb
+C:\Users\xipie\Documents\AA_Lessen\c#\pr1\First Project C Sharp\First Project C Sharp\obj\Debug\MainWindow.baml
+C:\Users\xipie\Documents\AA_Lessen\c#\pr1\First Project C Sharp\First Project C Sharp\obj\Debug\First Project C Sharp.g.resources
+C:\Users\xipie\Documents\AA_Lessen\c#\pr1\First Project C Sharp\First Project C Sharp\obj\Debug\First_Project_C_Sharp.Properties.Resources.resources
+C:\Users\xipie\Documents\AA_Lessen\c#\pr1\First Project C Sharp\First Project C Sharp\obj\Debug\First Project C Sharp.csproj.GenerateResource.cache
+C:\Users\xipie\Documents\AA_Lessen\c#\pr1\First Project C Sharp\First Project C Sharp\obj\Debug\First Project C Sharp.csproj.CoreCompileInputs.cache
+C:\Users\xipie\Documents\AA_Lessen\c#\pr1\First Project C Sharp\First Project C Sharp\obj\Debug\First Project C Sharp.exe
+C:\Users\xipie\Documents\AA_Lessen\c#\pr1\First Project C Sharp\First Project C Sharp\obj\Debug\First Project C Sharp.pdb
