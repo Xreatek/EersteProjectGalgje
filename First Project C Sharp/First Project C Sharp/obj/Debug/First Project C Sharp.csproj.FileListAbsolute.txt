@@ -28,3 +28,6 @@ C:\Users\xipie\Documents\School\c#\EersteProjectGalgje\First Project C Sharp\Fir
 C:\Users\xipie\Documents\School\c#\EersteProjectGalgje\First Project C Sharp\First Project C Sharp\obj\Debug\First_Project_C_Sharp.Properties.Resources.resources
 C:\Users\xipie\Documents\School\c#\EersteProjectGalgje\First Project C Sharp\First Project C Sharp\obj\Debug\First Project C Sharp.csproj.GenerateResource.cache
 C:\Users\xipie\Documents\School\c#\EersteProjectGalgje\First Project C Sharp\First Project C Sharp\obj\Debug\First Project C Sharp.csproj.CoreCompileInputs.cache
+C:\Users\xipie\Documents\School\c#\EersteProjectGalgje\First Project C Sharp\First Project C Sharp\bin\Debug\MathConverter.dll
+C:\Users\xipie\Documents\School\c#\EersteProjectGalgje\First Project C Sharp\First Project C Sharp\obj\Debug\First Project C Sharp.csproj.CopyComplete
+C:\Users\xipie\Documents\School\c#\EersteProjectGalgje\First Project C Sharp\First Project C Sharp\obj\Debug\First Project C Sharp_Content.g.cs
