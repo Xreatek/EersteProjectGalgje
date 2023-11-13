@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("properties/assemblyinfo.cs")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("src/galgphases/7.png")]
 
 

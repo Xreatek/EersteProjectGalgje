@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("mainwindow.xaml.cs")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("properties/assemblyinfo.cs")]
 
 

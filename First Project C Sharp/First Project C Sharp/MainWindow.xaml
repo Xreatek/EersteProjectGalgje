@@ -23,7 +23,9 @@
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
                         <Border CornerRadius="5" BorderBrush="{Binding RelativeSource={RelativeSource Self}, Path=Background}" Background="#70d68d">
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <Viewbox Margin="8">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Viewbox>
                         </Border>
                     </ControlTemplate>
                 </Setter.Value>
@@ -40,7 +42,9 @@
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
                         <Border CornerRadius="5" BorderBrush="{Binding RelativeSource={RelativeSource Self}, Path=Background}" Background="#d64343">
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <Viewbox Margin="8">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Viewbox>
                         </Border>
                     </ControlTemplate>
                 </Setter.Value>
@@ -60,7 +64,9 @@
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
                         <Border CornerRadius="5" BorderBrush="{Binding RelativeSource={RelativeSource Self}, Path=Background}" Background="#7E914E">
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <Viewbox Margin="8">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Viewbox>
                         </Border>
                     </ControlTemplate>
                 </Setter.Value>
@@ -85,7 +91,9 @@
             </Grid.RowDefinitions>
             <!-- yeah word guess -->
             <Border Grid.Row="1" CornerRadius="25" BorderThickness="1" Background="#525E33" Margin="15,0,15,0">
-                <TextBlock x:Name="GuesdBox" Grid.Row="1" Text="HANGMAN" TextAlignment="Center" Background="#525E33" VerticalAlignment="Center" Margin="20" FontSize="30"/>
+                <Viewbox>
+                    <TextBlock x:Name="GuesdBox" Grid.Row="1" Text="HANGMAN" TextAlignment="Center" Background="#525E33" VerticalAlignment="Center" Margin="20" FontSize="30"/>
+                </Viewbox>
             </Border>
             <Grid Grid.Row="3">
                 <Grid.RowDefinitions>
@@ -197,9 +205,11 @@
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    
-                    <TextBlock x:Name="PopupText" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Text="" Padding="5"/>
-                    
+
+                    <Viewbox Margin="2" >
+                        <TextBlock x:Name="PopupText" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Super Secret Text" Padding="5"/>
+                    </Viewbox>
+
                     <Grid Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*"/>
@@ -210,15 +220,23 @@
                         </Grid.RowDefinitions>
 
                         <Border Grid.Column="0" Padding="10,5">
-                            <Button x:Name="RestartButton" Click="RestartButtonClick" Content="Restart" Background="#70d68d"/>
+                            <Button x:Name="RestartButton" Click="RestartButtonClick" Background="#70d68d">
+                                <Viewbox Margin="3">
+                                    <TextBlock Text="Restart"/>
+                                </Viewbox>
+                            </Button>
                         </Border>
 
                         <Border Grid.Column="1" Padding="10,5">
-                            <Button x:Name="QuitButton" Click="QuitButtonClick" Content="Exit" Background="#d64343"/>
+                            <Button x:Name="QuitButton" Click="QuitButtonClick" Background="#d64343">
+                                <Viewbox Margin="3">
+                                    <TextBlock Text="Exit"/>
+                                </Viewbox>
+                            </Button>
                         </Border>
 
                     </Grid>
-                    
+
                 </Grid>
             </Border>
         </Popup>

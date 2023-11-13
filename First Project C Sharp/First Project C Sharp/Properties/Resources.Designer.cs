@@ -139,5 +139,61 @@ namespace First_Project_C_Sharp.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to abandoned
+        ///aberdeen
+        ///abilities
+        ///ability
+        ///aboriginal
+        ///abortion
+        ///about
+        ///above
+        ///abraham
+        ///abroad
+        ///absence
+        ///absent
+        ///absolute
+        ///absolutely
+        ///absorption
+        ///abstract
+        ///abstracts
+        ///abuse
+        ///academic
+        ///academics
+        ///academy
+        ///accent
+        ///accept
+        ///acceptable
+        ///acceptance
+        ///accepted
+        ///accepting
+        ///accepts
+        ///access
+        ///accessed
+        ///accessibility
+        ///accessible
+        ///accessing
+        ///accessories
+        ///accessory
+        ///accident
+        ///accidents
+        ///accommodate
+        ///accommodation
+        ///accommodations
+        ///accompanied
+        ///accompanying
+        ///accomplish
+        ///accomplished
+        ///accordance
+        ///according
+        ///accordingly
+        ///accou [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string WordList {
+            get {
+                return ResourceManager.GetString("WordList", resourceCulture);
+            }
+        }
     }
 }
